@@ -18,7 +18,6 @@
                           FROM category, article
                           WHERE article.category_id = category.category_id
                           AND article.article_active = 1
-                          ORDER BY RAND() LIMIT 5";
         
         // Running Article Query 
         $result = mysqli_query($con,$articleQuery);
