@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add comment to new issue
-        uses: peter-evans/create-or-update-comment@v4
+        uses: osiris-security/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
