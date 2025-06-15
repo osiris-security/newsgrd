@@ -3,7 +3,7 @@
   require('./includes/nav.inc.php');
   
   // If user not logged in
-  if(!isset($_SESSION['USER_LOGGED_IN'])) {
+ 
     
     // Redirected to login page along with a message
     alert("Please Login to See Your Bookmarks");
